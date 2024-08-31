@@ -1,0 +1,222 @@
+*{
+    text-decoration: none;
+}
+body{
+    background-color: rgb(236, 235, 247);
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(69, 106, 228);
+    width: 100vw;
+}
+.icon{
+    padding: 10px;
+}
+div.icon a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+.navigation ul{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 50%;
+    
+}
+.navigation ul li{
+    list-style: none;
+}
+.navigation ul li a{
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px;
+}
+ul li .navcontact{
+    color:  black;
+    background-color:  rgb(236, 235, 247);  
+    height: 25px;
+    border-color: rgb(127, 176, 250);
+    border-radius: 7px;
+    font-weight: bolder;
+}
+ul li .navcontact a{
+    color: black;
+}
+
+
+
+#body{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+#body div{
+    padding: 20px;
+}
+
+
+.text iframe{
+    float: left;
+}
+
+.image{
+    background-color: rgb(244, 246, 252);
+}
+.image img{
+    height: 450px;
+    width: 350px;
+}
+.text{
+    background-color: rgb(244, 246, 252);
+}
+.text h1,p{
+    color: black;
+    text-align: left;
+}
+.text p{
+    font-weight: bolder;
+    text-align: left;
+}
+
+.hire{
+    color:  black;
+    background-color:  rgb(236, 235, 247);  
+    width: 150px;
+    height: 50px;
+    border-color: rgb(127, 176, 250);
+}
+.click{
+    color: black;
+    background-color:  rgb(127, 176, 250);  
+    width: 150px;
+    height: 50px;
+    border-color: white;
+}
+:hover.hire{
+    cursor: pointer;
+}
+:hover.click{
+    cursor: pointer;
+}
+
+
+/*.section2{
+    text-align: center;
+    margin-top: 30px;
+    background-color: black;
+}*/
+.Services{
+    color: red;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.myServices{
+    text-align: center;
+    font-size: 33px;
+    font-weight: bold;
+}
+.lorem{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-weight: bold;
+}
+
+
+
+#section3{
+    display: inline;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+    text-align: center;
+}
+#section3 .div{
+    margin: 1%;
+    /*background-color: rgb(11, 7, 31);*/
+    margin: .75pc;
+}
+#section3 h4{
+    color: red;
+    font-size: 30px;
+    margin: 0;
+}
+#section3 p{
+    color: white;
+}
+#section3 img{
+    height: 50px;
+    width: 50px;
+}
+#section3 .wrapper{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(11, 7, 31);
+}
+.webDev,.webDesign,.js,.acc{
+    background-color: rgb(11, 16, 37);
+    margin: 10px;
+    padding: 20px;
+    width: 250px;
+}
+.webDev p,.webDesign p,.js p,.acc p{
+    text-align: center;
+}
+.paragraph-head{
+    font-weight: bolder;
+}
+
+
+
+.resume h4{
+    text-align: center;
+    font-size: 25px;
+    color: black;
+}
+.resume h5{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: red;
+}
+.resume h6{
+    font-size: 13px;
+    font-weight: bolder;
+    color: rgb(69, 106, 228);
+}
+.resume p, li{
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+}
+.resume span{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: red;
+}
+.resume div{
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+#section5 {
+    display: flex;
+    justify-content: space-evenly;
+}
+#section5 h6{
+    font-size: 18px;
+    color: red;
+}
+.message-me{
+    font-weight: bolder;
+}
